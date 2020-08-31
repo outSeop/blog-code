@@ -110,3 +110,25 @@ search:
   path: search.xml
   field: post
   content.: true
+
+nofollow:
+    enable: true
+    exclude:
+    - exclude1.com
+    - exclude2.com
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 200
+
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://outseop.github.io//sitemap.xml
